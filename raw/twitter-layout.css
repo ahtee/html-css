@@ -1,0 +1,148 @@
+/*lots of bugs, i know, still don't have time to fix thenm and add features*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*important css for the body container, cant overflow the page... someone could drown*/
+
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: #e1e8ed;
+  font-family: "Gotham Narrow", "Open Sans", sans-serif;
+}
+
+/*custom css styling for the navbar*/
+
+.navbar {
+  box-shadow: 1px 1px 1px #999;
+  background: rgb(255,255,255);
+}
+
+.navbar-nav li a span {
+  font-size: 20px;
+}
+
+/* twitter logo in nav*/
+
+.twitter-logo {
+  font-size: 5em;
+}
+
+/* added shadows to all containers*/
+
+.main .container, .trends .container, .user .container {
+  background: #FFF;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 5px;
+}
+
+/* set a constant for the main container width*/
+
+.main .container {
+  float: left;
+  height: 290px; 
+  margin-left: 100px;
+}
+
+/* custom css for tweet textarea box */
+
+.ask {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* sets default background for each container to white*/
+
+.container {
+  background: rgb(255,255,255);
+}
+
+/* positioning styling and width set to a constant width for the user profile container*/
+
+.user .container {
+  display: block;
+  width: 350px;
+  height: 540px;
+  margin-left: 30px;
+}
+
+/* css style for twitter logo next to @username*/
+
+#user-twitter-logo {
+  font-size: 1.2em;
+  color: #55acee;
+}
+
+.user-thumbnail  {
+  border-radius: 10px;
+}
+
+.user-thumbnail-outer  {
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px grey;
+  transition: ease 1s;
+}
+
+.user-thumbnail-outer:hover  {
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px #369;
+  transition: ease 1s;
+}
+
+/* center the text above the user avatar*/
+
+.twitter-username {
+  text-align: center;
+}
+
+/* moved the user information to the right a bit, for uniform, pretty purposes*/
+
+.user-user-information {
+  margin-left: 10px;
+}
+
+/* bolds the user's real name, because that's important right?*/
+
+.user-user-information h3 {
+  font-weight: bold;
+}
+
+/* positioning and width styling for the trends container which is soon in development. */
+
+.trends .container {
+  clear: both;
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+/* typed.js css for a blinking cursor. the cursor blinks throught the @keyframes query */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

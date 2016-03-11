@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('http://static1.squarespace.com/static/545d337ae4b0f79db68f3a9e/t/545d7604e4b01d77329d4fbe/1415411280452/City.gif?format=1500w');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.textbox {
+  font-size: 1.8em;
+}
+
+.title {
+  font-family: "Pacifico", sans-serif;
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  
+}
+
+.container {
+    left: 50%;
+    margin-left: -400px;
+    position: absolute;
+    top: 30%;
+    width: 800px;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.log-in-button {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.about {
+    background: #56bc8a;
+    box-shadow: inset 1px 5px 1px rgba(0,0,0,.1);
+    bottom: -45px;
+    color: #fff;
+    cursor: pointer;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    transition: bottom .3s ease-out 1.7s;
+    bottom: 0;
+}

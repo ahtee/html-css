@@ -1,0 +1,73 @@
+<!-- Twitter Layout initially hosted on codepen! http://codepen.io/ahtee/pen/LGdZOQ -->
+
+<!-- Stuff for Head -->
+<!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+
+<!-- <script src="typed.js"></script> -->
+<!-- <script> 
+  $(function(){
+      $(".element").typed({
+        strings: [" interesting.", " funny.", " awesome!", " in ALL CAPS.", " passsive aggressive.", " innovative.", " inventive"],
+        typeSpeed: 0
+      });
+  });
+</script> -->
+<!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous"> -->
+
+<nav class="navbar navbar-static-top"> <!-- Start Nav -->
+    <div class="navbar-inner"> <!-- navbar-inner div -->
+        <ul class="nav navbar-nav">
+            <li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-flash"></span> Moments</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-bell"></span> Notifications</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Messages</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-globe"></span> Discover</a></li>
+        </ul> <!-- end nav navbar-nav ul -->
+        <h1 class="fa fa-twitter" style="display: inline-block; font-size: 2.5em; position: absolute; top: -10px; left: 48%; color: rgb(85, 172, 238);"></h1> <!-- Twitter Icon with inline styling (Sorry in advance) -->
+        <ul class="nav navbar-nav pull-right"> <!-- pull-right navigation links -->
+          <li> <!-- Search bar list item (idk why) -->
+            <form action="" role=search>
+              <div class="navbar-form "> 
+                <input type="" class="form-control" placeholder="Search Twitter"/>
+              </div> <!-- end navbar-form div -->
+            </form> <!-- end search form tag -->
+          </li> <!-- Search bar list item (idk why) -->
+        </ul> <!-- pull-right navigation links -->
+    </div> <!--navbar-inner div -->
+</nav> <!-- End Nav -->
+
+<div class="row">
+  <div class="user col-md-2">
+    <div class="container">
+      <div class="twitter-username"><h3><span class="fa fa-twitter" id="user-twitter-logo"></span>@bencotte</h3></div> <!-- end twitter username div -->
+      <div class="thumbnail user-thumbnail-outer"  style="width: 200px; margin-left: 55px;"><img class="user-thumbnail" src="https://pbs.twimg.com/profile_images/663205752815796224/Vquwqw2n_400x400.jpg" alt="profile pic"  style="width: 200px; height: 200px;">
+      </div><!-- end .user-thumbnail-outer div -->
+      <div class="user-user-information">
+        <h3>Ben</h3>
+        <h4>code, critical thinker, technologist, soccer</h4>
+        <h4><span class="fa fa-location-arrow"></span>&nbsp; Cincinnati, OH</h4>
+        <h4><span class="fa fa-link"></span>&nbsp; <a href="https://ahtee.github.io" target="_blank">ahtee.github.io</a></h4>
+        <h4><span class="fa fa-calendar"></span>&nbsp; Joined March 2009</h4>
+        <h4><span class="fa fa-birthday-cake"></span>&nbsp; Born on October 12</h4>
+        <button class="btn btn-primary">Edit Profile</button>
+      </div> <!-- end user-user-information div -->
+    </div> <!-- end container div -->
+  </div> <!-- end .user div -->
+
+  <div class="main">
+    <div class="container col-md-6">
+      <h1 class="ask">Say something interesting.</h1>
+      <form class="tweet">
+        <textarea name="newtweet" id="newtweet" class="newtweet" cols="60" rows="3" placeholder="My favorite coffee is..." style="font-size: 20px; margin-left: 70px;"></textarea><br />
+        <button type="" class="btn btn-info pull-right" style="margin-right: 70px; margin-top: 2px;"><i class="fa fa-twitter"></i> Tweet</button> <!-- end tweet button with inline styles -->
+      </form> <!-- end .tweet form -->
+    </div> <!-- end .container .col-md-6 div -->
+  </div> <!-- end .main div -->
+</div> <!-- end .row div -->
+
+<div class="trends">
+  <div class="container">
+    <h3>Trends - <a href="#" style="font-size: .8em;">Change</a></h3>
+    
+  </div> <!-- end .trends .container -->
+</div> <!-- end .trends div -->
