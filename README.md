@@ -1,5 +1,2 @@
-# HTML
-# CSS
-# &
-# JS
+# HTML, CSS, and JavaScript hub
 
