@@ -1,0 +1,4 @@
+// image_sprites.scss
+@import 'compass/utilities/sprites';
+@import 'images/icons-social/*.png';
+@include icons-social-sprites;
